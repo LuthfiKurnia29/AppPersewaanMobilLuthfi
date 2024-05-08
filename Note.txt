@@ -1,0 +1,3 @@
+Framework : Laravel
+DB : Mysql
+CSS Framework : Bootstrap
