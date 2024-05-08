@@ -1,4 +1,4 @@
-@extends('layout.main')
+@extends('admin.layout.main')
 @section('content')
-    <div class="">Ini Halaman Admin</div>
+    <div class="p-4">Ini Halaman Admin</div>
 @endsection

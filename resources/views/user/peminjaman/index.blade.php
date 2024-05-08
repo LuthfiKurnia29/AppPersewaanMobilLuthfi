@@ -16,7 +16,7 @@
             <tr>
               <td>{{$item->mobil->no_plat}}</td>
               <td>{{$item->mobil->model}}</td>
-              <td>{{$item->tanggal_pinjam}}</td>
+              <td>{{$item->tanggal_mulai}}</td>
               <td>{{$item->tanggal_selesai}}</td>
             </tr>
             @endforeach

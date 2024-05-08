@@ -60,7 +60,8 @@
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="/mobil">Mobil</a>
-                                    <a class="nav-link" href="layout-sidenav-light.html">Pemesanan</a>
+                                    <a class="nav-link" href="/peminjaman-admin">Pemesanan</a>
+                                    <a class="nav-link" href="/pengembalian-admin">Pengembalian</a>
                                 </nav>
                             </div>
                         </div>

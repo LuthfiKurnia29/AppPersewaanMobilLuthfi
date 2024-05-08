@@ -4,17 +4,17 @@
         <table class="table">
             <thead>
               <tr>
-                <th scope="col">Merek</th>
-                <th scope="col">Model</th>
+                <th scope="col">Peminjam</th>
                 <th scope="col">No Plat</th>
+                <th scope="col">Total</th>
               </tr>
             </thead>
             <tbody>
                 @foreach ($data as $item)
                 <tr>
-                  <td>{{$item->merek}}</td>
-                  <td>{{$item->model}}</td>
+                  <td>{{$item->user->nama}}</td>
                   <td>{{$item->no_plat}}</td>
+                  <td>{{$item->total_biaya}}</td>
                 </tr>
                 @endforeach
             </tbody>

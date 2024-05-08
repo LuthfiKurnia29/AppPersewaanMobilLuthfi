@@ -60,13 +60,14 @@
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="/peminjaman">Peminjaman</a>
+                                    <a class="nav-link" href="/pengembalian">Pengembalian</a>
                                 </nav>
                             </div>
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">
                         <div class="small">Logged in as:</div>
-                        {{auth()->user()->nama}}
+                        {{-- {{auth()->user()->nama}} --}}
                     </div>
                 </nav>
             </div>
